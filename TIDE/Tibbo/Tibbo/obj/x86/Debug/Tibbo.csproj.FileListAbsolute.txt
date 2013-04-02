@@ -1,0 +1,18 @@
+C:\Users\eos\AppData\Local\Temporary Projects\Tibbo\bin\Debug\Tibbo.exe
+C:\Users\eos\AppData\Local\Temporary Projects\Tibbo\bin\Debug\Tibbo.pdb
+C:\Users\eos\AppData\Local\Temporary Projects\Tibbo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\eos\AppData\Local\Temporary Projects\Tibbo\obj\x86\Debug\Tibbo.Form1.resources
+C:\Users\eos\AppData\Local\Temporary Projects\Tibbo\obj\x86\Debug\Tibbo.Properties.Resources.resources
+C:\Users\eos\AppData\Local\Temporary Projects\Tibbo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\eos\AppData\Local\Temporary Projects\Tibbo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\eos\AppData\Local\Temporary Projects\Tibbo\obj\x86\Debug\Tibbo.exe
+C:\Users\eos\AppData\Local\Temporary Projects\Tibbo\obj\x86\Debug\Tibbo.pdb
+C:\Users\eos\Desktop\Tibbo\Tibbo\obj\x86\Debug\Tibbo.exe
+C:\Users\eos\Desktop\Tibbo\Tibbo\obj\x86\Debug\Tibbo.pdb
+C:\Users\eos\Desktop\Tibbo\Tibbo\bin\Debug\Tibbo.exe
+C:\Users\eos\Desktop\Tibbo\Tibbo\bin\Debug\Tibbo.pdb
+C:\Users\eos\Desktop\Tibbo\Tibbo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\eos\Desktop\Tibbo\Tibbo\obj\x86\Debug\Tibbo.Form1.resources
+C:\Users\eos\Desktop\Tibbo\Tibbo\obj\x86\Debug\Tibbo.Properties.Resources.resources
+C:\Users\eos\Desktop\Tibbo\Tibbo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\eos\Desktop\Tibbo\Tibbo\obj\x86\Debug\GenerateResource.write.1.tlog

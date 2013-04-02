@@ -1,0 +1,23 @@
+<META HTTP-EQUIV="Refresh"
+      CONTENT="1">
+<HTML>
+	<?include "global.tbh"?>
+	<meta http-equiv="Content-Language" content="zh-tw"> <meta http-equiv="Content-Type" charset=big5">
+	<p align = center><font face="Arial" size="24"> Sensor Data</font></p>
+	
+	<hr size="5" align="center" noshade width="90%">
+	<table border = "1" cellpadding = "7" align = center>
+		<form action = "post.html" method = "get">
+			<tr><td align = center><p>溫感Sensor</td><td>State: <?sock_setsend(rx_data)?></br></td></tr>
+			<tr><td align = center><p>一氧化碳Sensor</td><td>State: <?sock_setsend(s_data)?></br></td></tr>
+	</table>
+	</form>
+	<script>
+		function Message(){
+			alert("test");
+		}
+		if(<?Alert()?>)
+			Message();
+	</script>
+	<img src="build.jpg" width = 600 height = 500>
+</HTML>

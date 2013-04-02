@@ -1,0 +1,13 @@
+'DEFINES-------------------------------------------------------------
+
+'INCLUDES------------------------------------------------------------
+
+'DECLARATIONS--------------------------------------------------------
+declare sub Alert()
+declare sub sock_setsend(byref s as string)
+declare fd_file_error as string  '開啟或建立flash disk file錯誤訊息
+declare s as string  ' 檔案內資料
+declare rx_data as string
+declare temperature as string
+declare humidity as string
+declare co as string
