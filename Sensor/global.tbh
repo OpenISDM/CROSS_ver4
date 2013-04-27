@@ -1,0 +1,33 @@
+'DEFINES-------------------------------------------------------------
+
+'INCLUDES------------------------------------------------------------
+
+'DECLARATIONS--------------------------------------------------------
+declare sub State(byref output as pl_io_num)
+declare sub Show(byref output as pl_io_num)
+declare sub Control(byref output as pl_io_num, checked as boolean)
+declare sub Alert()
+declare sub SaveMessage(msg as string)
+declare sub GetMessage()
+declare sub JudgeMessage(msg as string)
+declare sub sock_setsend(byref s as string)
+declare message as string
+declare msgcnt as integer
+declare Run as boolean
+declare fd_file_error as string  '開啟或建立flash disk file錯誤訊息
+declare s as string  ' 檔案內資料
+declare rx_data as string
+declare s_data as string
+'LED position
+const IO_1 = PL_IO_NUM_15_TX3
+const IO_2 = PL_IO_NUM_3
+const IO_3 = PL_IO_NUM_7
+const IO_4 = PL_IO_NUM_13_TX2
+const IO_5 = PL_IO_NUM_2
+const IO_6 = PL_IO_NUM_6
+const IO_7 = PL_IO_NUM_11_TX1
+const IO_8 = PL_IO_NUM_1
+const IO_9 = PL_IO_NUM_5
+const IO_10 = PL_IO_NUM_9_TX0
+const IO_11 = PL_IO_NUM_0
+const IO_12 = PL_IO_NUM_4

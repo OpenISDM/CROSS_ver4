@@ -1,0 +1,42 @@
+<META HTTP-EQUIV="Refresh"
+      CONTENT="0; URL=index.html">
+
+<? include "global.tbh"
+	dim red_on as byte
+	dim green_on as byte
+	dim IO_1_on as byte
+	dim IO_2_on as byte
+	
+	red_on = instr(1, sock.httprqstring, "red=on", 1)
+	green_on = instr(1, sock.httprqstring, "green=on", 1)
+	IO_1_on = instr(1, sock.httprqstring, "IO_1=on", 1)
+	IO_2_on = instr(1, sock.httprqstring, "IO_3=on", 1)
+	
+	if red_on > 0 then
+		if green_on > 0 then
+			pat.play("B", YES)
+		else
+			pat.play("R", YES)
+		end if
+	else
+		if(green_on > 0) then
+			pat.play("G", YES)
+		else
+			pat.play("-", YES)
+		end if
+	end if
+		
+	' Judge IO state, and control it
+	'IO_1
+	if(IO_1_on > 0) then
+		Control(IO_1, true)
+	else
+		Control(IO_1, false)
+	end if
+	'IO_3
+	if(IO_2_on > 0) then
+		Control(IO_3, true)
+	else
+		Control(IO_3, false)
+	end if
+?>
